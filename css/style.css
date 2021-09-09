@@ -123,6 +123,23 @@ body {
 }
 
 /* ****************************************** */
+/* NAVIGATİON */
+
+.main-nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited{
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+
+/* ****************************************** */
 /* HERO SECTİON */
 
 .section-hero {
