@@ -62,6 +62,30 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /* ****************************************** */
 
+.container{
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols{
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -106,6 +130,10 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
 /* ****************************************** */
 /* HEADER */
 
@@ -137,7 +165,7 @@ body {
   text-decoration: none;
   color: #333;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.3s;
 }
 
@@ -186,9 +214,7 @@ body {
   width: 100%;
 }
 
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
+
 
 .delivered-meals {
   display: flex;
@@ -222,4 +248,14 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+
+/* ****************************************** */
+/* HERO SECTİON */
+/* ****************************************** */
+
+.section-how{
+  padding: 9.6rem 0;
+  background-color: orangered;
 }
